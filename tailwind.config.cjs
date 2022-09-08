@@ -1,0 +1,63 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "lavender-rose": {
+          DEFAULT: "#F7A6EE",
+          50: "#FEF1FC",
+          100: "#FACBF5",
+          200: "#F7A6EE",
+          300: "#F273E4",
+          500: "#EE3FDA",
+          600: "#E114CA",
+          700: "#AD109C",
+        },
+        "light-wisteria": {
+          DEFAULT: "#C790D6",
+          50: "#F4E9F7",
+          100: "#E5CCEC",
+          200: "#D6AEE1",
+          300: "#C790D6",
+          400: "#B267C7",
+          500: "#9B42B3",
+          600: "#78338B",
+          700: "#542462",
+        },
+        "biloba-flower": {
+          DEFAULT: "#CDABED",
+          50: "#F5EEFB",
+          100: "#E1CDF4",
+          200: "#CDABED",
+          300: "#B27DE3",
+          400: "#964FD9",
+          500: "#7A2AC5",
+          600: "#5E2097",
+        },
+        "cold-purple": {
+          DEFAULT: "#A190D6",
+          50: "#EDE9F7",
+          100: "#D3CCEC",
+          200: "#BAAEE1",
+          300: "#A190D6",
+          400: "#7E67C7",
+          500: "#5E42B3",
+          600: "#48338B",
+          700: "#332462",
+        },
+        "perano": {
+          DEFAULT: "#A6A8F7",
+          50: "#F1F1FE",
+          100: "#CBCDFA",
+          200: "#A6A8F7",
+          300: "#7376F2",
+          400: "#3F43EE",
+          500: "#1419E1",
+          600: "#1013AD",
+        },
+      },
+    },
+  },
+  plugins: [],
+};
