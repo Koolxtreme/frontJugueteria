@@ -1,13 +1,13 @@
-import MainHeader from "./components/header/MainHeader";
-import SecondHeader from "./components/header/SecondHeader";
-import MainNav from './components/navigation/MainNav'
+import { Routes, Route } from "react-router-dom";
+import Home from "./views/Home";
 
 function App() {
   return (
     <div>
-      <MainHeader />
-      <SecondHeader sicon={true}/>
-      <MainNav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
     </div>
   );
 }
