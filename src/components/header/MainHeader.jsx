@@ -1,12 +1,11 @@
 import MainNav from '../navigation/MainNav'
+import Icon from "./icon/Icon";
 
 function MainHeader() {
   return (
     <header className='flex justify-between items-center p-4 bg-biloba-flower w-full'>
       <div className='flex items-center justify-evenly'>
-        <p>ventas@playgroundjugueteria.com</p>
-        <p className='md:mx-4'>|</p>
-        <p>+56 9999 5555</p>
+        <Icon></Icon>
       </div>
       <MainNav />
     </header>

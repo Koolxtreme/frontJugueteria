@@ -1,12 +1,12 @@
 import MainFooter from "../components/footer/MainFooter";
 
-function Home() {
+function About() {
   return (
     <section>
-      <div>Inicio</div>
+      <div>SobreNosotros</div>
       <MainFooter />
     </section>
   );
 }
 
-export default Home;
+export default About;

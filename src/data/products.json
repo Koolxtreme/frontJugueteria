@@ -1,0 +1,28 @@
+{
+  "Products": [
+    {
+      "id": "0",
+      "name": "Test",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas purus vitae pellentesque egestas. Donec vel vestibulum magna, at porttitor.",
+      "price": 2000,
+      "imgsrc": "https://i.postimg.cc/HkFPncrx/6126913.jpg",
+      "vendor": "test-vendor"
+    },
+    {
+      "id": "1",
+      "name": "Test1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas purus vitae pellentesque egestas. Donec vel vestibulum magna, at porttitor.",
+      "price": 5000,
+      "imgsrc": "https://i.postimg.cc/HkFPncrx/6126913.jpg",
+      "vendor": "test-vendor"
+    },
+    {
+      "id": "2",
+      "name": "Test2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas purus vitae pellentesque egestas. Donec vel vestibulum magna, at porttitor.",
+      "price": 15000,
+      "imgsrc": "https://i.postimg.cc/HkFPncrx/6126913.jpg",
+      "vendor": "test-vendor"
+    }
+  ]
+}
